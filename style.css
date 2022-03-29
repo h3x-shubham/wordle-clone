@@ -1,0 +1,93 @@
+*{
+    color: #ffffff;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #121213;
+    overflow: hidden;
+}
+.message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    min-width: 50px;
+    min-height: 50px;
+    margin: 1px;
+    
+    
+}
+.title-container{
+    margin: 10px;
+    padding: 10px;
+    width: 97%;
+   
+    text-align: center;
+    border-bottom: 1px solid #3a3a3c;
+}
+.game-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.tile-container{
+    width: 330px;
+    
+  
+}
+
+.tile{
+    margin: 4px;
+    border: 1px solid #3a3a3c;
+ width: 62px;
+ height: 62px;   
+ box-sizing: border-box;
+}
+
+.tile-container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    /* border: 1px solid blue; */
+   
+} 
+
+.key-container{
+    
+    display: flex;
+    width: 510px;
+    flex-wrap: wrap;
+  
+}
+.key-container button{
+    border-radius: 4px;
+    border: none;
+    
+    margin: 4px;    
+    background-color: #818384;
+    width: 43px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-container button:nth-child(20),
+.key-container button:nth-child(28){
+    width: 68px;
+}
+.key-container button:nth-child(11){
+    margin-left: 30px;
+}
+.tile-yellow{
+    background-color: #b59f3b;
+}
+.tile-green{
+    background-color: #538d4e;
+}
+.tile-grey{
+    background-color:#3a3a3c ;
+}
